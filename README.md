@@ -20,7 +20,6 @@ Untuk memastikan performa sistem tetap stabil dan responsif saat diakses oleh ba
 1. **Role-Based Access Control (RBAC):** Pemisahan otorisasi yang ketat. Petugas Inspeksi hanya memiliki akses ke formulir *Input Data* (Mobile Responsive), sedangkan *Team Leader* memiliki akses penuh ke *Dashboard Admin* (Desktop) untuk memantau, memfilter, dan mengunduh laporan.
 2. **Real-Time Email Alert:** Eksekusi notifikasi otomatis yang memicu *e-mail* ke *supervisor* dalam hitungan detik setelah petugas menekan tombol kirim dari lapangan.
 3. **Geolocation Tracking & PDF Generation:** Sistem secara otomatis merekam titik koordinat (GPS) petugas saat *submit* data untuk validasi lokasi, dan merangkum seluruh hasil inspeksi ke dalam dokumen PDF yang tersimpan rapi di *server*.
-4. **Robust Error Handling:** Dilengkapi dengan penangkapan *error* lapis ganda, baik penanganan status HTTP di level API (contoh: 404 Not Found untuk parameter tidak valid) maupun integrasi dengan *Web Application Firewall* (WAF) untuk mencegah akses direktori paksa (403 Forbidden).
 
 ## 🗄️ Database Schema (ERD)
 Basis data dirancang menggunakan MySQL dengan pendekatan relasional untuk menjaga integritas data operasional.
