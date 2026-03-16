@@ -33,7 +33,7 @@ Sistem ini telah melewati fase pengujian API menggunakan Postman dan pengujian *
 ![post](https://github.com/user-attachments/assets/dd2b4527-5cc2-48ac-9b6e-1213ae991290)
 
 * **HTTP PATCH:** Pembaruan *record* data pelaporan beserta lampiran nama *file*.
-![patch](https://github.com/user-attachments/assets/ac91dabf-799f-43f9-b67a-fb0bf1394c32)
+![patch](https://github.com/user-attachments/assets/4ea3554f-2969-4b4a-897b-60d2488d77bd)
 
 ## 👨‍💻 Author
 **Muhamad Ramdani**
